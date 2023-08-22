@@ -1,0 +1,153 @@
+:root{
+    --red:rgb(243, 23, 93);
+    --btn_white:rgb(254, 254, 252);
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:black;
+    color: var(--btn_white);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+
+}
+.btn-cstm{
+    background-color: rgb(244, 104, 148);
+    color: white;
+}
+.text-danger{
+    color: red;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: red;
+}
+
+/* ---------------------nav-Link--------------------- */
+.content h5{
+    font-size: 15px;
+    font-weight: 400px;
+    color: rgb(255, 210, 210);
+}
+.content h1{
+    font-size: 77px;
+    color: white;
+
+}
+.content p{
+    font-size: 17px;
+    color: white;
+}
+.btn_group input{
+    border-top-left-radius:15px ;
+    border-bottom-left-radius: 15px;
+    border: none;
+    outline: none;
+}
+.btn_group button{
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(243, 23, 93);
+}
+.btn_group{
+    width: 300px;
+    border: 1px solid rgb(251, 213, 213);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 80px;
+    transform: scale(1.2);
+
+}
+
+.banner img{
+    width: 800px;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 73vh;
+    background-color:rgb(0, 0, 0) ;
+    margin-top: 60px;
+}
+
+/* --------------------banner----------------------------------------- */
+.section_details h1{
+    font-size: 70px;
+}
+.section_details p{
+    font-size: 15px;
+    color: white;
+}
+.section_details h5{
+    width: 350px;
+    font-size: 19px;
+    color: rgb(248, 248, 248);
+    line-height: 1.5rem;
+}
+.section_details button{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(237, 10, 82);
+}
+.section_details{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.section1 img{
+    width: 350px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+}
+/* =====================section1============================== *//
+.card img{
+    height: 300px;
+    
+}
+.title {
+    color: red;
+    text-align: center;
+
+}
+.html{
+    scroll-behavior: smooth;
+}
+.icons i{
+    margin-left: 10px;
+    color: var(--red);
+}
+/* -------------------------------variable declaration for unique value or changing values */
+#imagess{
+    width: 400px;
+    height: 270px;
+}
+#my{
+    margin-top: 30px;
+}
